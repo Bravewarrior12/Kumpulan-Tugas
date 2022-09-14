@@ -2,19 +2,20 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package pbos3;
+package Persegipj;
 
 /**
  *
  * @author DELL
  */
-public class PBOS3 {
+public class Mainpanjang {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+      Persegidowo kamar = new Persegidowo();
+      kamar.setLebar(10);
+      kamar.setPanjang(5);
+      
+        System.out.println("Total volume adalah " +kamar.getVolume() );
     }
     
 }
